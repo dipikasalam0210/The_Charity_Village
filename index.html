@@ -1,60 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" class="tk-box" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" class="tk-box" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Finlandica:ital@0;1&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
 
     <title>The Charity Village</title>
-</head>
-<body>
-   <section class="header">
-    <h1>Let’s Help Those Who Are <br>More In Need</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, dolorum amet illum maiores recusandae beatae quod minus atque nisi sit.</p>
-    <button class="btn">Donate Now</button>
-   </section>
-   <section class="donation-today">
-    <div class="donation-text">
+  </head>
+  <body>
+    <section class="header">
+      <div class="hero">
+        <h1>Let’s Help Those Who Are <br />More In Need</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, dolorum
+          amet illum maiores recusandae beatae quod minus atque nisi sit.
+        </p>
+        <button class="btn"><a href="#donate">Donate Now</a></button>
+      </div>
+    </section> 
+    <!--------------End of header section----------->
+    <section id="donate" class="donation-today">
+      <div class="donation-text">
         <h2>Donation Today</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi neque aliquam quibusdam ea consectetur possimus beatae assumenda, qui cum nulla</p>
-    </div>
-    <div class="amount">
-        <a  class="tk-box" href="#">100TK</a>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi neque
+          aliquam quibusdam ea consectetur possimus beatae assumenda, qui cum
+          nulla
+        </p>
+      </div>
+      <div class="amount">
+        <a class="tk-box" href="#">100TK</a>
         <a class="tk-box" href="#">200TK</a>
         <a class="tk-box" href="#">300TK</a>
         <a class="tk-box" href="#">400TK</a>
         <a class="tk-box" href="#">500TK</a>
-    </div>
-   <div class="other-amount">
-    <input class="input input-box" type="text" placeholder="Other Amount (Taka)">
-    <button class="btn input-box">Donate Now</button>
-   </div>
-   </section>
+      </div>
+      <div class="other-amount">
+        <input
+          class="input input-box"
+          type="text"
+          placeholder="Other Amount (Taka)"
+        />
+        <button class="btn input-box"><a href="">Donate Now</a></button>
+      </div>
+    </section>
+    <!-----------------End of donation-today section-------------->
 
-   <section class="plan">
-    <div class="donate-plan">
+    <section class="plan">
+      <div class="donation-text">
         <h2>Our Donate Plan</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda debitis voluptas vel quae praesentium incidunt. Tempore voluptas et amet.</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
+          debitis voluptas vel quae praesentium incidunt. Tempore voluptas et
+          amet.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-item one">
+          <img class="icon" src="./icons/food.png" alt="" />
+          <h5>Food for a Family</h5>
+          <p>
+            Aliquid quisquam blanditiis quo iusto facilis quia reprehenderit
+            tenetur ducimus nisi cupiditate! Saepe dolore maiores minus ea?
+          </p>
+        </div>
+        <div class="card-item two">
+          <img class="icon" src="./icons/shelter.png" alt="" />
+          <h5>Food for a Family</h5>
+          <p>
+            Aliquid quisquam blanditiis quo iusto facilis quia reprehenderit
+            tenetur ducimus nisi cupiditate! Saepe dolore maiores minus ea?
+          </p>
+        </div>
+        <div class="card-item three">
+          <img class="icon" src="./icons/Frame-1.png" alt="" />
+          <h5>Food for a Family</h5>
+          <p>
+            Aliquid quisquam blanditiis quo iusto facilis quia reprehenderit
+            tenetur ducimus nisi cupiditate! Saepe dolore maiores minus ea?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-----------------End of plan section-------------->
+    <section class="events-gallery">
+      <div class="donation-text">
+        <h2>Their lives depend on your donation</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos,
+          laboriosam.
+        </p>
+        <h2>They need us to suvive</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+          corporis suscipit. Iusto eos nulla impedit?
+        </p>
+        <button class="btn"><a href="#">How to Contribute?</a></button>
+      </div>
+      <div class="gallery">
+        <h2>Gallery</h2>
+        <img class="gallery-img" src="images/donation1.jpg" alt="" />
+        <img class="gallery-img" src="images/donation2.jpg" alt="" />
+        <img class="gallery-img" src="images/donation7.jpg" alt="" />
+        <img class="gallery-img" src="images/donation4.jpg" alt="" />
+        <img class="gallery-img" src="images/donation5.jpg" alt="" />
+        <img class="gallery-img" src="images/donation6.jpg" alt="" />
+      </div>
+      <div id="start-donating" class="donation-text">
+        <h2>Do good any time, they still need your help a lot</h2>
+        <p>
+          You can donate every day. They still need the hands of good people
+          like you.
+        </p>
+        <button class="btn"><a href="#donate">Start Donating Now</a></button>
+      </div>
+    </section>
+    <!-------------End of events-gallery section-------------->
 
-    </div>
-    <div class="card">
-        <div class="card-item">
-            <img class= "icon" src="./icons/food.png" alt="">
-            <h5>Food for a Family</h5>
-            <p>Aliquid quisquam blanditiis quo iusto facilis quia reprehenderit tenetur ducimus nisi cupiditate! Saepe dolore maiores minus ea?</p>
-        </div>
-        <div class="card-item">
-            <img class= "icon" src="./icons/shelter.png" alt="">
-            <h5>Food for a Family</h5>
-            <p>Aliquid quisquam blanditiis quo iusto facilis quia reprehenderit tenetur ducimus nisi cupiditate! Saepe dolore maiores minus ea?</p>
-        </div>
-        <div class="card-item">
-            <img class= "icon" src="./icons/Frame-1.png" alt="">
-            <h5>Food for a Family</h5>
-            <p>Aliquid quisquam blanditiis quo iusto facilis quia reprehenderit tenetur ducimus nisi cupiditate! Saepe dolore maiores minus ea?</p>
-        </div>
-    </div>
-   </section>
-</body>
+    <section class="get-update">
+      <div class="donation-text">
+        <h2>Get My Updates</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+          explicabo temporibus eos sapiente quaerat dolorum?
+        </p>
+      </div>
+      <div class="email">
+        <form action="">
+          <input type="email" placeholder="Email" />
+          <button class="btn"><a href="">Subscribe</a></button>
+        </form>
+      </div>
+    </section>
+    <!-------------End of get-update section-------------->
+  </body>
+  <footer>
+    <h3>Be Humble</h3>
+    <h6>I'm gonna do it</h6>
+  </footer>
 </html>
