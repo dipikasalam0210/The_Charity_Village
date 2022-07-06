@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+section{
+    padding:120px 50px 0 50px;
+}
+h1{
+    font-size: 50px; 
+ }
+ h2{
+    font-size:35px;
+ }
+ p{
+     margin-top:20px;
+     color:gray;
+     font-size:16px;
+ }
+ a{
+    text-decoration: none;
+
+ }
+.header{
+    background-image:url(../images/donation13.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color:white;
+    height:400px;
+    text-align: center;
+    /*padding:120px 50px 0 50px;*/
+
+}
+.header p{
+    color:white;
+}
+
+.btn{
+    margin-top:30px;
+    padding:10px 15px;
+    border-radius:5px;
+    background-color: rgb(212, 91, 67);
+    color:white;
+    border:none;
+}
+.donation-today{
+    text-align:center;
+}
+.donation-text{
+    margin-bottom: 70px;
+}
+.amount{
+    margin-bottom: 70px;
+}
+
+.tk-box{
+    color: gray;
+    font-size:25px;
+    padding: 30px 15px;
+    margin-right: 10px;
+    background-color: rgb(243, 245, 247);
+    border:3px solid rgb(243, 245, 247);
+    border-radius:5px;
+
+}
+.tk-box:hover{
+    color:rgb(212, 91, 67);
+    border:3px solid rgb(212, 91, 67);
+    background-color: rgb(255, 246, 238);
+    border-radius:5px;
+}
+.other-amount{
+
+}
+.input{
+    margin: 0 50px;
+    padding: 10px 0;
+    width:80%;
+    border-style: none;
+    border-bottom: 1px solid rgb(189, 187, 187);
+    
+}
+.input-box{
+    text-align: center;
+    
+}
+.Plan{
+
+}
+.donate-plan{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.card{
+   
+}
+.card-item{
+   display: inline-block;
+   width: 30%;
+   padding: 40px 10px;
+   margin-right: 5px;
+   background-color:pink;
+}
+.icon{
+    width:40px;
+    margin-bottom: 20px;
+}
