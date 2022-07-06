@@ -30,6 +30,26 @@ p {
 a {
   text-decoration: none;
 }
+/*Common classes*/
+.btn {
+    margin-top: 30px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: rgb(212, 91, 67);
+    color: white;
+    border: none;
+  }
+  .btn a {
+    color: white;
+  }
+  .donation-text {
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+
+
+
 /* header section starts here*/
 .header {
   background-image: linear-gradient(
@@ -60,24 +80,11 @@ a {
 /* header section ends here*/
 
 /* donation-today section starts here*/
-.btn {
-  margin-top: 30px;
-  padding: 15px 25px;
-  border-radius: 5px;
-  background-color: rgb(212, 91, 67);
-  color: white;
-  border: none;
-}
-.btn a {
-  color: white;
-}
+
 .donation-today {
   text-align: center;
 }
-.donation-text {
-  margin-bottom: 70px;
-  text-align: center;
-}
+
 .amount {
   margin-bottom: 120px;
 }
@@ -117,8 +124,7 @@ input:active{
 /* donation-today section ends here*/
 
 /* plan section starts here*/
-.plan {
-}
+
 .card {
   width: 78%;
   margin: 0 auto;
