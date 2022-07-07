@@ -50,7 +50,7 @@ a {
 
 /* header section starts here*/
 .header {
-  background-image: url(../images/donation9.jpg);
+  background-image: url(/images/donation9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -68,7 +68,7 @@ a {
   );*/
 
   /*The linear gradient is working properly but in github page it is not showing the background-image */
-  
+
   background-size: cover;
   width: 100%;
   height: 600px;
