@@ -32,27 +32,24 @@ a {
 }
 /*Common classes*/
 .btn {
-    margin-top: 30px;
-    padding: 15px 25px;
-    border-radius: 5px;
-    background-color: rgb(212, 91, 67);
-    color: white;
-    border: none;
-  }
-  .btn a {
-    color: white;
-  }
-  .donation-text {
-    margin-bottom: 70px;
-    text-align: center;
-  }
-
-
-
+  margin-top: 30px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: rgb(212, 91, 67);
+  color: white;
+  border: none;
+}
+.btn a {
+  color: white;
+}
+.donation-text {
+  margin-bottom: 70px;
+  text-align: center;
+}
 
 /* header section starts here*/
 .header {
-  background-image:  url(../images/donation9.jpg);
+  background-image: url(../images/donation9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -109,10 +106,10 @@ input {
   width: 100%;
   border-style: none;
   border-bottom: 1px solid rgb(189, 187, 187);
-  outline:none;
+  outline: none;
 }
-input:active{
-    outline:none;
+input:active {
+  outline: none;
 }
 .input-box {
   text-align: center;
