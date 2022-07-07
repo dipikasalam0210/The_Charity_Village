@@ -50,7 +50,7 @@ a {
 
 /* header section starts here*/
 .header {
-  background-image: url(/images/donation9.jpg);
+  background-image: url('../images/donation9.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
